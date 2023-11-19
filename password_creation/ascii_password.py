@@ -5,10 +5,10 @@ import argparse
 class PasswordGenerator:
     '''
     Examples: 
-        python make_password.py 22 -me 8 -luse
+        python ascii_password.py 22 -me 8 -luse
         Generated Password: XTA😕fSu*c+k😒Wdon~U🥺ST:
 
-        python emoji_list.py 22 -me 3 -e
+        python ascii_password.py 22 -me 3 -e
         Generated Password: 🙌🖤🙌🙌😞😞😞🙌😞🙌🖤🖤🖤🙌🙌🙌🙌😞🙌🙌🙌😞
     '''
     def __init__(self, length=12, uppercase=True, lowercase=True, digits=True, special=True, emojis=True, 
