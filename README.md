@@ -1,4 +1,4 @@
-# Password Genesis 🔒
+ <h1 align='center'>🔒 Password Genesis 🔒</h1>
 
 <p align="center">
   <img src="https://i.imgur.com/hjcOJxj.png" alt="password-genesis.png" width="500" style="display: block; margin: 0 auto;">
