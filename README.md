@@ -34,8 +34,9 @@ To generate a password, navigate to the `password_creation` directory and run on
 ```bash
 python ascii_password.py [length] [options]
 ```
-
-#### Options:
+<details>
+  <summary><b>Options:</b></summary>
+ 
 | Option | Description |
 | ------ | ----------- |
 | `-u, --uppercase` | Include uppercase letters. |
@@ -49,13 +50,16 @@ python ascii_password.py [length] [options]
 | `-ms, --max_special [int]` | Maximum number of special characters. |
 | `-me, --max_emojis [int]` | Maximum number of emojis. |
 
+</details> 
+
 ### Unicode Password Generator
 
 ```bash
 python unicode_password.py [length] [options]
 ```
-
-#### Options:
+<details>
+  <summary><b>Options:</b></summary>
+ 
 | Option | Description |
 | ------ | ----------- |
 | `-u, --uppercase` | Include uppercase letters. |
@@ -70,6 +74,8 @@ python unicode_password.py [length] [options]
 | `-ms, --max_special [int]` | Maximum number of special characters. |
 | `-mm, --max_math [int]` | Maximum number of special characters. |
 | `-me, --max_emojis [int]` | Maximum number of emojis. |
+
+</details> 
 
 ## 🌟 Examples
 
