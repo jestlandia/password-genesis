@@ -1,32 +1,88 @@
-# password-genesis
+# Password Genesis
 
-Create passwords using ASCII and/or Unicode characters, including emojis.
+<p align="center">
+  <img src="https://i.imgur.com/hjcOJxj.png" alt="password-genesis.png" width="500" style="display: block; margin: 0 auto;">
+</p>
 
---- 
+![GitHub last commit](https://img.shields.io/github/last-commit/jestlandia/password-genesis)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jestlandia/password-genesis)
+![GitHub stars](https://img.shields.io/github/stars/jestlandia/password-genesis?style=social)
 
-### Commands
+## 🛡️ About
 
-- <h4>ASCII Password</h4>
+Password Genesis is a versatile Python-based password generator, offering a variety of character sets for highly customizable password creation. This project includes two main scripts:
+- `ascii_password.py`: For generating passwords with ASCII characters.
+- `unicode_password.py`: For a wider range of characters including Unicode.
+
+## 🚀 Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/jestlandia/password-genesis.git
+   ```
+2. Navigate to the cloned directory:
+   ```
+   cd password-genesis/password_creation
+   ```
+
+## 🛠️ Usage
+
+To generate a password, navigate to the `password_creation` directory and run one of the scripts with your desired parameters.
+
+### ASCII Password Generator
+
+```bash
+python ascii_password.py [length] [options]
 ```
-python ascii-password.py <password_length> -uldse
+
+#### Options:
+- `-u`, `--uppercase`: Include uppercase letters.
+- `-l`, `--lowercase`: Include lowercase letters.
+- `-d`, `--digits`: Include digits.
+- `-s`, `--special`: Include special characters.
+- `-e`, `--emojis`: Include emojis.
+- `-mu`, `--max_uppercase [int]`: Maximum number of uppercase characters.
+- `-ml`, `--max_lowercase [int]`: Maximum number of lowercase characters.
+- `-md`, `--max_digits [int]`: Maximum number of digits.
+- `-ms`, `--max_special [int]`: Maximum number of special characters.
+- `-me`, `--max_emojis [int]`: Maximum number of emojis.
+
+### Unicode Password Generator
+
+```bash
+python unicode_password.py [length] [options]
 ```
 
--u: Include uppercase ASCII letters  
--l: Include lowercase ASCII letters  
--d: Include ASCII digits  
--s: Include ASCII special characters  
--e: Include emojis  
+#### Options:
+Similar to `ascii_password.py`, but with an extended character set.
 
----
- 
-- <h4>UNICODE Password</h4>
-```
-python unicode-password.py <password_length> -uldsme
-```
+## 🌟 Examples
 
--u: Include uppercase Unicode letters  
--l: Include lowercase Unicode letters  
--d: Include Unicode digits  
--s: Include Unicode special characters  
--m: Include Unicode special math characters  
--e: Include emojis
+- Generate a 12-character password with a mix of upper/lowercase letters, digits, special characters, and emojis:
+  ```bash
+  python ascii_password.py 12 -u -l -d -s -e
+  ```
+- Generate a 16-character password with uppercase letters and a maximum of 5 digits:
+  ```bash
+  python ascii_password.py 16 -u -md 5
+  ```
+- Generate an 8-character password with only emojis:
+  ```bash
+  python ascii_password.py 8 -e
+  ```
+- Generate a 20-character password with lowercase letters, digits, and a maximum of 3 special characters:
+  ```bash
+  python ascii_password.py 20 -l -d -ms 3
+  ```
+
+## 🔒 Security
+
+This tool generates strong and complex passwords, contributing to better security in your digital life. 
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/jestlandia/password-genesis/issues) for open issues or submit a new one.
+
+## ⭐ Show your support
+
+Give a ⭐️ if this project helped you!
