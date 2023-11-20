@@ -1,7 +1,7 @@
  <h1 align='center'>🔒 Password Genesis 🔒</h1>
 
 <p align="center">
-  <img src="https://i.imgur.com/hjcOJxj.png" alt="password-genesis.png" width="500" style="display: block; margin: 0 auto;">
+  <img src="password-genesis.png" alt="password-genesis.png" width="500" style="display: block; margin: 0 auto;">
 </p>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/jestlandia/password-genesis)
@@ -36,16 +36,18 @@ python ascii_password.py [length] [options]
 ```
 
 #### Options:
-- `-u`, `--uppercase`: Include uppercase letters.
-- `-l`, `--lowercase`: Include lowercase letters.
-- `-d`, `--digits`: Include digits.
-- `-s`, `--special`: Include special characters.
-- `-e`, `--emojis`: Include emojis.
-- `-mu`, `--max_uppercase [int]`: Maximum number of uppercase characters.
-- `-ml`, `--max_lowercase [int]`: Maximum number of lowercase characters.
-- `-md`, `--max_digits [int]`: Maximum number of digits.
-- `-ms`, `--max_special [int]`: Maximum number of special characters.
-- `-me`, `--max_emojis [int]`: Maximum number of emojis.
+| Option | Description |
+| ------ | ----------- |
+| `-u, --uppercase` | Include uppercase letters. |
+| `-l, --lowercase` | Include lowercase letters. |
+| `-d, --digits` | Include digits. |
+| `-s, --special` | Include special characters. |
+| `-e, --emojis` | Include emojis. |
+| `-mu, --max_uppercase [int]` | Maximum number of uppercase characters. |
+| `-ml, --max_lowercase [int]` | Maximum number of lowercase characters. |
+| `-md, --max_digits [int]` | Maximum number of digits. |
+| `-ms, --max_special [int]` | Maximum number of special characters. |
+| `-me, --max_emojis [int]` | Maximum number of emojis. |
 
 ### Unicode Password Generator
 
@@ -54,7 +56,20 @@ python unicode_password.py [length] [options]
 ```
 
 #### Options:
-Similar to `ascii_password.py`, but with an extended character set.
+| Option | Description |
+| ------ | ----------- |
+| `-u, --uppercase` | Include uppercase letters. |
+| `-l, --lowercase` | Include lowercase letters. |
+| `-d, --digits` | Include digits. |
+| `-s, --special` | Include special characters. |
+| `-m, --math` | Include special characters. |
+| `-e, --emojis` | Include emojis. |
+| `-mu, --max_uppercase [int]` | Maximum number of uppercase characters. |
+| `-ml, --max_lowercase [int]` | Maximum number of lowercase characters. |
+| `-md, --max_digits [int]` | Maximum number of digits. |
+| `-ms, --max_special [int]` | Maximum number of special characters. |
+| `-mm, --max_math [int]` | Maximum number of special characters. |
+| `-me, --max_emojis [int]` | Maximum number of emojis. |
 
 ## 🌟 Examples
 
