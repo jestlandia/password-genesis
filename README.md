@@ -14,6 +14,9 @@ Password Genesis is a versatile Python-based password generator, offering a vari
 - `ascii_password.py`: For generating passwords with ASCII characters.
 - `unicode_password.py`: For generating passwords with Unicode characters.
 
+This tool generates strong and complex passwords, contributing to better security in your digital life. 
+
+
 ## 💻 Installation
 
 1. Clone the repository:
@@ -96,14 +99,8 @@ python unicode_password.py [length] [options]
   python unicode_password.py 20 -ldsm -ms 3
   ```
 
-## 🔒 Security
-
-This tool generates strong and complex passwords, contributing to better security in your digital life. 
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/jestlandia/password-genesis/issues) for open issues or submit a new one.
 
-## ⭐ Show your support
 
-Give a ⭐️ if this project helped you!
