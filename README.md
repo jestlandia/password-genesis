@@ -12,9 +12,9 @@
 
 Password Genesis is a versatile Python-based password generator, offering a variety of character sets for highly customizable password creation. This project includes two main scripts:
 - `ascii_password.py`: For generating passwords with ASCII characters.
-- `unicode_password.py`: For a wider range of characters including Unicode.
+- `unicode_password.py`: For generating passwords with Unicode characters.
 
-## 🚀 Installation
+## 💻 Installation
 
 1. Clone the repository:
    ```
@@ -29,7 +29,7 @@ Password Genesis is a versatile Python-based password generator, offering a vari
 
 To generate a password, navigate to the `password_creation` directory and run one of the scripts with your desired parameters.
 
-### ASCII Password Generator
+- ### ASCII Password Generator
 
 ```bash
 python ascii_password.py [length] [options]
@@ -52,7 +52,7 @@ python ascii_password.py [length] [options]
 
 </details> 
 
-### Unicode Password Generator
+- ### Unicode Password Generator
 
 ```bash
 python unicode_password.py [length] [options]
@@ -79,21 +79,21 @@ python unicode_password.py [length] [options]
 
 ## 🌟 Examples
 
-- Generate a 12-character password with a mix of upper/lowercase letters, digits, special characters, and emojis:
+- Generate a 12-character ASCII password with a mix of upper/lowercase letters, digits, special characters, and emojis:
   ```bash
-  python ascii_password.py 12 -u -l -d -s -e
+  python ascii_password.py 12 -uldse
   ```
-- Generate a 16-character password with uppercase letters and a maximum of 5 digits:
+- Generate a 16-character ASCII password with uppercase letters and digits, using a maximum of 5 digits:
   ```bash
-  python ascii_password.py 16 -u -md 5
+  python ascii_password.py 16 -ud -md 5
   ```
 - Generate an 8-character password with only emojis:
   ```bash
   python ascii_password.py 8 -e
   ```
-- Generate a 20-character password with lowercase letters, digits, and a maximum of 3 special characters:
+- Generate a 20-character UNICODE password with lowercase letters, digits, special characters, and math characters, using a maximum of 3 special characters:
   ```bash
-  python ascii_password.py 20 -l -d -ms 3
+  python unicode_password.py 20 -ldsm -ms 3
   ```
 
 ## 🔒 Security
