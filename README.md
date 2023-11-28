@@ -16,6 +16,8 @@ Password Genesis is a versatile Python-based password generator, offering a vari
 
 This tool generates strong and complex passwords, contributing to better security in your digital life. 
 
+Note: This tool uses python's random library, which is known to be pseudorandom. 
+
 
 ## 💻 Installation
 
